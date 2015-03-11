@@ -1,0 +1,21 @@
+{
+    "name": "deemeetar/laravel-debugbar-translations",
+    "description": "Translations collector for laravel-debugbar",
+    "authors": [
+        {
+            "name": "Dimitar Spiroski",
+            "email": "dimitar.spiroski@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.*",
+        "barryvdh/laravel-debugbar": "1.8.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Deemeetar\\LaravelDebugbarTranslations": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
